@@ -91,10 +91,10 @@ POST    /me/tasks
 PUT     /me/<task_id>
 DELETE  /me/<task_id>
 
-GET     /me/tasks
-POST    /me/tasks
-PUT     /me/<task_id>
-DELETE  /me/<task_id>
+GET     /me/lists
+POST    /me/lists
+PUT     /me/<list_id>
+DELETE  /me/<list_id>
 
 ```
 
