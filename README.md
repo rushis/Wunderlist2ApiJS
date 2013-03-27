@@ -71,3 +71,40 @@ wl.login(loginData, function(error, login){
     }    
 });
 ```
+
+## API Coverage
+
+### Implemented
+
+``` scala
+
+POST    /login 
+GET     /me
+GET     /me/settings
+GET     /me/events
+GET     /me/friends
+GET     /me/services
+GET     /me/shares
+
+GET     /me/tasks
+POST    /me/tasks
+PUT     /me/<task_id>
+DELETE  /me/<task_id>
+
+GET     /me/tasks
+POST    /me/tasks
+PUT     /me/<task_id>
+DELETE  /me/<task_id>
+
+```
+
+
+## License (MIT)
+
+Copyright (c) 2012, Ruslan Khissamov.
+
+**
+
+### Author: [Ruslan Khissamov][0]
+
+[0]: http://github.com/rushis/
